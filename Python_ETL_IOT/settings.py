@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-9pi+!h73^!3c54k&6d+0mu%do6w5o%g7x2$uzrcr8s*uk3w$zp
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['kingshuk.shop','a7b6a87ad43134fac9f77f2acd3cc330-1773837317.us-east-1.elb.amazonaws.com']
 
 
 # Application definition
