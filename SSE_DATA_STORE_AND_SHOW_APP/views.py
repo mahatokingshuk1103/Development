@@ -49,3 +49,6 @@ def chart_view(request):
     data_json = json.dumps(data)
     return render(request, 'graph.html', {'data_json': data_json})
 
+def front_view(request):
+    return render(request, 'front.html')
+
