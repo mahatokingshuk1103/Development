@@ -38,7 +38,8 @@ urlpatterns = [
     path('save/', save_data_to_database, name='save_data_to_database'),
     path('sse/', sse , name='sse'),
     path('show/',show_data , name='show_data'),
-    path('chart/', chart_view, name='chart')
+    path('chart/', chart_view, name='chart'),
+    path('',front_view, name='front_view'),
     
 
 ]
